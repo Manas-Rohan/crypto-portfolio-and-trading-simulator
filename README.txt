@@ -1,27 +1,29 @@
-AUTOMATED CRYPTO PORTFOLIO & TRADING BOT
-Mid-semester C++ version (up to operator overloading)
+Automated Crypto Portfolio & Trading Bot
 
-This is a simple classroom simulator. It uses sample prices only and does not connect to a real exchange.
+A simple C++ project that simulates cryptocurrency portfolio management and trading using sample prices.
 
-Features:
-- Show wallet balances and total portfolio value
+Features
+- View wallet balances and portfolio value
 - Deposit and withdraw cash
-- Buy and sell BTC, ETH and DOGE using sample prices
-- Check a price alert using a user-entered limit
-- Operator overloading: +=, -=, < and >
-- Separate header (.h) and source (.cpp) files
+- Buy and sell BTC, ETH, and DOGE
+- Check price alerts
+- Demonstrate operator overloading in C++
 
-Compile with g++:
+Technologies
+- C++
+- Object-Oriented Programming (OOP)
+
+How to Run
+
+**Compile:**
+```bash
 g++ -std=c++11 main.cpp currency.cpp balance.cpp wallet.cpp portfolio.cpp exchange.cpp tradingbot.cpp -o crypto_bot
+```
 
-Run:
+**Run:**
+```bash
 ./crypto_bot
+```
 
-Main files:
-- currency.h/.cpp: currency name and ticker
-- balance.h/.cpp: stores an amount
-- wallet.h/.cpp: wallet and += / -= operators
-- portfolio.h/.cpp: manages wallets and comparison operators
-- exchange.h/.cpp: sample prices and simulated orders
-- tradingbot.h/.cpp: buy/sell logic and portfolio operations
-- main.cpp: menu
+Disclaimer
+This project uses fixed sample prices and does not connect to a real cryptocurrency exchange. It is intended for educational purposes only.
