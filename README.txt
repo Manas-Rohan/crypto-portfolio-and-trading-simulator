@@ -25,5 +25,3 @@ g++ -std=c++11 main.cpp currency.cpp balance.cpp wallet.cpp portfolio.cpp exchan
 ./crypto_bot
 ```
 
-Disclaimer
-This project uses fixed sample prices and does not connect to a real cryptocurrency exchange. It is intended for educational purposes only.
